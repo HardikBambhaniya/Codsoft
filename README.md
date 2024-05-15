@@ -47,7 +47,7 @@ done with basic knowledge of these technologies..</p><br>
 <a href = "https://findvalue.netlify.app/">LIVE</a> <br>
 
 <span>Find me AT </span> <br>
-<a href = ""https://www.linkedin.com/in/hardik-bambhaniya?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a> <br>
+<a href = "https://www.linkedin.com/in/hardik-bambhaniya?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Linkedin</a> <br>
 <a href = "https://www.instagram.com/i_cancode/?igsh=M3pmYzU3c2dnc2gx">Instagram</a> <br>
 <a href = "https://twitter.com/Hardik_bambh?t=ls7shXFF1-vPsMmMJTVo4Q&s=09">Twitter</a> <br>
 <a href = "https://discord.com/invite/k4jBTAmN">Discord</a> <br>

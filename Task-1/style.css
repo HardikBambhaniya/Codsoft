@@ -1,0 +1,675 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header{
+    height: 30px;
+    width: 100%;
+    
+}
+
+nav ul{
+    height: 30px;
+    width: auto;
+    background-color: #181617;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+
+
+main{
+    width: 100%;
+    background-image: linear-gradient(45deg , rgb(83, 16, 108) , rgb(0, 0, 0));
+    height: 600px;
+}
+
+
+.about-section{
+  width: 100%;
+  height: 300px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.container article{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+}
+
+.Hero-section{
+    width: 100%;
+    height: 50%;
+    background-image: linear-gradient(180deg , rgb(83, 16, 108) , rgb(0, 0, 0));
+}
+
+.card-container{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+   
+   
+}
+
+.card-1{
+    width: 20%;
+    height: 100%;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #234175;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px 
+    #000;
+}
+
+.card-1:hover{
+    margin-top: 1px; 
+    transition: 1s;
+}
+
+
+
+.card-1 img{
+    width: 90%;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.card-1 a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+footer{
+    height: 100wh;
+    width: 100%;
+    background-color: rgb(34, 22, 39);
+}
+
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #fff;
+}
+
+.ai-tools{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.footer-section a{
+    width: 300px;
+    height: 20px;
+    background-color: #fff;
+    margin: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #234175;
+    cursor: pointer;
+}
+
+.footer-section a:hover{
+    color: #fff;
+    margin: 3px;
+    background-color: #234175;
+    transition: 1s;
+}
+
+.social{
+    margin-top: 30px;
+}
+
+.contact{
+    width: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+/* Media queries for responsiveness */
+
+/* For screens up to 200px */
+@media screen and (max-width: 200px) {
+    header {
+        height: auto;
+    
+    }
+    
+    nav ul {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    ul li {
+        margin: 3px;
+        font-size: 0.60rem;
+    }
+    
+    main {
+        height: auto;
+        width: auto;
+        
+    }
+
+    
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container img {
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+    }
+    
+    .container article {
+        font-size: 0.50rem;
+        padding: 5px;
+        overflow: hidden;
+        text-overflow: clip;
+    }
+    
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card-1 {
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    .card-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-1 h3 , a{
+        font-size: 0.70rem;
+        margin: 3px;
+    }
+    
+    footer {
+        height: auto;
+        width: auto;
+        padding: 5px;
+        font-size: 0.50rem;
+    }
+
+    .ai-tools{
+        height: auto;
+        width: auto;
+    }
+
+    .ai-tools a{
+        width: auto;
+        height: auto;
+    }
+
+    .social, .contact{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 201px) and  (max-width: 400px) {
+    header {
+        height: auto;
+    
+    }
+    
+    nav ul {
+        flex-direction: row;
+        height: auto;
+    }
+    
+    ul li {
+        margin: 3px;
+        font-size: 0.60rem;
+    }
+    
+    main {
+        height: auto;
+        width: auto;
+        
+    }
+
+
+    
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container img {
+        width: 70px;
+        height: 70px;
+        margin: 5px;
+    }
+    
+    .container article {
+        font-size: 0.70rem;
+        padding: 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .card-1 {
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    .card-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-1 h3 , a{
+        font-size: 0.70rem;
+        margin: 3px;
+    }
+    
+    footer {
+        height: auto;
+        width: auto;
+        font-size: 0.70rem;
+    }
+
+    .ai-tools{
+        height: auto;
+        width: auto;
+    }
+
+    .ai-tools a{
+        width: auto;
+        height: auto;
+    }
+
+    .social, .contact{
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 401px) and  (max-width: 600px) {
+    header {
+        height: auto;
+    
+    }
+    
+    nav ul {
+        flex-direction: row;
+        height: auto;
+    }
+    
+    ul li {
+        margin: 7px;
+        font-size: 0.70rem;
+    }
+    
+    main {
+        height: auto;
+        width: auto;
+        
+    }
+
+
+    
+    .container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .container img {
+        width: 100px;
+        height: 100px;
+        margin: 5px;
+    }
+    
+    .container article {
+        font-size: 0.80rem;
+        padding: 7px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+    }
+    
+    .card-1 {
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    .card-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-1 h3 , a{
+        font-size: 0.75rem;
+        margin: 5px;
+    }
+    
+    footer {
+        height: auto;
+        width: auto;
+        font-size: 0.75rem;
+    }
+
+    .ai-tools{
+        height: auto;
+        width: auto;
+    }
+
+    .footer-section a{
+        width: auto;
+        height: auto;
+    }
+
+    .contact{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 601px) and  (max-width: 800px) {
+    header {
+        height: auto;
+    
+    }
+    
+    nav ul {
+        flex-direction: row;
+        height: auto;
+    }
+    
+    ul li {
+        margin: 7px;
+        font-size: 0.70rem;
+    }
+    
+    main {
+        height: auto;
+        width: auto;
+        
+    }
+
+
+    
+    .container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .container img {
+        width: 130px;
+        height: 130px;
+        margin: 10px;
+    }
+    
+    .container article {
+        font-size: 0.90rem;
+        padding: 10px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+    }
+    
+    .card-1 {
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    .card-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-1 h3 , a{
+        font-size: 0.80rem;
+        margin: 7px;
+    }
+    
+    footer {
+        height: auto;
+        width: auto;
+        font-size: 0.80rem;
+    }
+
+    .ai-tools{
+        height: auto;
+        width: auto;
+    }
+
+    .footer-section a{
+        width: auto;
+        height: auto;
+    }
+
+}
+
+
+@media screen and (min-width: 801px) and  (max-width: 1000px) {
+    header {
+        height: auto;
+    
+    }
+    
+    nav ul {
+        flex-direction: row;
+        height: auto;
+    }
+    
+    ul li {
+        margin: 10px;
+        font-size: 0.80rem;
+    }
+    
+    main {
+        height: auto;
+        width: auto;
+        
+    }
+
+
+    .container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .container img {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+    
+    .container article {
+        font-size: 1rem;
+        padding: 13px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    .card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto auto;
+    }
+
+    
+    .card-1 {
+        width: 250px;
+        height: 250px;
+        margin: 10px 0px 10px 90px;
+        
+    }
+    
+    .card-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-1 h3 , a{
+        font-size: 0.90rem;
+        margin: 10px;
+    }
+    
+    footer {
+        height: auto;
+        width: auto;
+        font-size: 0.90rem;
+    }
+
+    .ai-tools{
+        height: auto;
+        width: auto;
+    }
+
+    .footer-section a{
+        width: auto;
+        height: auto;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1001px) and  (max-width: 1200px) {
+    header {
+        height: auto;
+    
+    }
+    
+    nav ul {
+        flex-direction: row;
+        height: auto;
+    }
+    
+    ul li {
+        margin: 10px;
+        font-size: 0.80rem;
+    }
+    
+    main {
+        height: auto;
+        width: auto;
+        
+    }
+
+
+    .container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .container img {
+        width: 180px;
+        height: 180px;
+        margin: 25px;
+    }
+    
+    .container article {
+        font-size: 1.10rem;
+        padding: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    
+    
+    .card-1 {
+        width: auto;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    
+    .card-1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-1 h3 , a{
+        font-size: 1rem;
+        margin: 15px;
+    }
+    
+    footer {
+        height: auto;
+        width: auto;
+        font-size: 1rem;
+    }
+
+    .ai-tools{
+        height: auto;
+        width: auto;
+    }
+
+    .footer-section a{
+        width: auto;
+        height: auto;
+    }
+
+}

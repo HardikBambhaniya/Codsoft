@@ -631,6 +631,10 @@ margin-top: 20px;
     .developer{
       flex-direction: column;
     }
+
+    .about-me{
+      margin: 10px;
+    }
   }
   
 
@@ -776,6 +780,10 @@ margin-top: 20px;
       flex-direction: column;
       justify-content: center;
     }
+
+    .about-me{
+      margin: 10px;
+    }
   }
   
   
@@ -890,7 +898,10 @@ margin-top: 20px;
       flex-direction: column;
       justify-content: center;
     }
-
+    
+    .about-me{
+      margin: 10px;
+    }
 
   }
   
